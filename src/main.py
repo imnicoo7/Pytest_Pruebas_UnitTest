@@ -10,7 +10,7 @@ def is_greater_than(number1, number2):
 
 def login(username, password):
     
-    if ((username == "imnico_") and (password == "1234")):
+    if (username == "imnico_") and (password == "1234"):
         return True
     else:
         return False
